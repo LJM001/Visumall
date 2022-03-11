@@ -1,0 +1,12 @@
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\bin\Debug\net5.0\Visumall.Logic.deps.json
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\bin\Debug\net5.0\Visumall.Logic.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\bin\Debug\net5.0\ref\Visumall.Logic.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\bin\Debug\net5.0\Visumall.Logic.pdb
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.csproj.AssemblyReference.cache
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.AssemblyInfoInputs.cache
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.AssemblyInfo.cs
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.csproj.CoreCompileInputs.cache
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\ref\Visumall.Logic.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Logic\obj\Debug\net5.0\Visumall.Logic.pdb

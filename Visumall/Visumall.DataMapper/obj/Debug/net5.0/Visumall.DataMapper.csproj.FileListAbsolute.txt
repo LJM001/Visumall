@@ -1,0 +1,11 @@
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\bin\Debug\net5.0\Visumall.DataMapper.deps.json
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\bin\Debug\net5.0\Visumall.DataMapper.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\bin\Debug\net5.0\ref\Visumall.DataMapper.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\bin\Debug\net5.0\Visumall.DataMapper.pdb
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.AssemblyInfoInputs.cache
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.AssemblyInfo.cs
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.csproj.CoreCompileInputs.cache
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\ref\Visumall.DataMapper.dll
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.pdb
