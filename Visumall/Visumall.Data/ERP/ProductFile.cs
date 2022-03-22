@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Visumall.Data.ERP
     /// 产品图片库
     /// 注:主要存储一个产品的多张图片
     /// </summary>
+    [SugarTable("ProductFiles")]
     public class ProductFile
     {
 
@@ -81,6 +83,12 @@ namespace Visumall.Data.ERP
         /// 最后修改时间
         /// </summary>
         public DateTime LastUpdateTime { get; set; }
+
+        /// <summary>
+        /// 产品对象
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public CompanyProduct Product { get; set; }
 
     }
 }

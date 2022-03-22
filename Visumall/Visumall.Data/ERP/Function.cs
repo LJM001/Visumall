@@ -36,7 +36,15 @@ namespace Visumall.Data.ERP
         /// <summary>
         /// 功能视图页面的URL
         /// </summary>
+        [MaxLength(500)]
         public string FunctionViewUrl { get; set; }
+
+        /// <summary>
+        /// 菜单
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Menu Menu { get; set; }
+
     }
 
 

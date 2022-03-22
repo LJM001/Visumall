@@ -1,7 +1,8 @@
 ﻿using SqlSugar;
-using System; 
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
- 
+
 
 namespace Visumall.Data.ERP
 {
@@ -44,6 +45,14 @@ namespace Visumall.Data.ERP
         public string Password { get; set; }
 
         /// <summary>
+        /// 用户类型
+        /// 1: 普通用户
+        /// 2: 平台用户
+        /// 3: 管理员
+        /// </summary>
+        public int Type { get; set; }
+
+        /// <summary>
         /// 账号状态
         /// 1:正常
         /// 2:冻结
@@ -66,7 +75,8 @@ namespace Visumall.Data.ERP
         /// <summary>
         /// 最后登录时间
         /// </summary>
-        public DateTime LastLoginTime { get; set; }
+        [SugarColumn(IsNullable = true)]
+        public DateTime? LastLoginTime { get; set; }
 
         /// <summary>
         /// Ip地址
@@ -84,6 +94,18 @@ namespace Visumall.Data.ERP
         /// </summary>
         public DateTime LastUpdateTime { get; set; }
 
+        /// <summary>
+        /// 导航属性  Account <1--1> User
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public User User { get; set; }
+
+        /// <summary>
+        /// 账号角色关系表集合
+        /// Account <1--N> AccountRoleRelation
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public List<AccountRoleRelation> AccountRoleRelationItems { get; set; }
 
     }
 }

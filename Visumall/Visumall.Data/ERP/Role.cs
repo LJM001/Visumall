@@ -39,6 +39,13 @@ namespace Visumall.Data.ERP
         /// </summary>
         [MaxLength(1000)]
         public string Remark { get; set; }
+
+        /// <summary>
+        /// 一个角色配置N个功能的权限
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public List<Permissions> Permissions { get; set; }
+
     }
 
 

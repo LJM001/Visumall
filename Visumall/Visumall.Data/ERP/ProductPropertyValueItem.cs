@@ -11,6 +11,7 @@ namespace Visumall.Data.ERP
     /// <summary>
     /// 产品属性组别事项勾选
     /// </summary>
+    [SugarTable("ProductPropertyValueItems")]
     public class ProductPropertyValueItem
     {
 
@@ -33,12 +34,14 @@ namespace Visumall.Data.ERP
         /// <summary>
         /// 产品属性值
         /// </summary>
+        [SugarColumn(IsIgnore = true)]
         public ProductPropertyGroupItem ProductPropertyGroupItem { get; set; }
 
         /// <summary>
         /// 产品
         /// </summary>
-        public Product Product { get; set; }
+        [SugarColumn(IsIgnore = true)]
+        public CompanyProduct Product { get; set; }
     }
 
 

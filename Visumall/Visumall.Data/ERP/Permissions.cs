@@ -36,6 +36,20 @@ namespace Visumall.Data.ERP
         /// 权限
         /// </summary>
         public Permission Permission { get; set; }
+
+        /// <summary>
+        /// 角色对象
+        /// Role 1--> N Permissions
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Role Role { get; set; }
+
+        /// <summary>
+        /// 功能
+        ///  Function 1 --> N Permissions
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Function Function { get; set; }
     }
 
 

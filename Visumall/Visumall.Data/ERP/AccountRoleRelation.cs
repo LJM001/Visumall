@@ -31,7 +31,25 @@ namespace Visumall.Data.ERP
         /// <summary>
         /// 是否有时效性
         /// </summary>
+        [SugarColumn(IsNullable = true)]
         public DateTime? ActiveTime { get; set; }
+
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime{ get; set; }
+
+        /// <summary>
+        /// 账户对象
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Account Account { get; set; }
+
+        /// <summary>
+        /// 角色对象
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Role Role { get; set; }
 
     }
 }

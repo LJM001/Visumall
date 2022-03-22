@@ -40,6 +40,12 @@ namespace Visumall.Data.ERP
         [MaxLength(500)]
         public string Remark { get; set; }
 
+        /// <summary>
+        /// 菜单下的功能集合
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public List<Function> FunctionItems { get; set; }
+
     }
 
 

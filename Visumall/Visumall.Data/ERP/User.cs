@@ -94,6 +94,12 @@ namespace Visumall.Data.ERP
         /// 最后修改时间
         /// </summary>
         public DateTime LastUpdateTime { get; set; }
+
+        /// <summary>
+        /// 导航属性  Account <1--1> User
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public Account Account { get; set; }
     }
 
 

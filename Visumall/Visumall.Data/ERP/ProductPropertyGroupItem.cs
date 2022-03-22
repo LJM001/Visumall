@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,12 +12,14 @@ namespace Visumall.Data.ERP
     /// <summary>
     /// 组别属性表
     /// </summary>
+    [SugarTable("ProductPropertyGroupItems")]
     public class ProductPropertyGroupItem
     {
 
         /// <summary>
         /// 属性表自增列Id
         /// </summary>
+        [SugarColumn(IsPrimaryKey = true, IsIdentity = true)]
         public int Id { get; set; }
 
         /// <summary>
@@ -38,6 +41,7 @@ namespace Visumall.Data.ERP
         /// <summary>
         /// 所属的产品属性组别
         /// </summary>
+        [SugarColumn(IsIgnore = true)]
         public ProductPropertyGroup ProductPropertyGroup { get; set; }
 
     }

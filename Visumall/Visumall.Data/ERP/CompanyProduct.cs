@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,7 +13,8 @@ namespace Visumall.Data.ERP
     /// <summary>
     /// 产品实体
     /// </summary>
-    public class Product
+    [SugarTable("Products")]
+    public class CompanyProduct
     {
         /// <summary>
         /// 自增列ID
@@ -25,6 +27,12 @@ namespace Visumall.Data.ERP
         /// </summary>
         [StringLength(100)]
         public string Guid { get; set; }
+
+        /// <summary>
+        /// 公司ID
+        /// </summary>
+        [MaxLength(100)]
+        public string CompanyId { get; set; }
 
         /// <summary>
         /// 产品编号
@@ -46,10 +54,10 @@ namespace Visumall.Data.ERP
         public string ProductTypeGuid { get; set; }
 
         /// <summary>
-        /// 属性组别Guid标识
+        /// 品牌标识
         /// </summary>
         [StringLength(100)]
-        public string PropertyGroupGuid { get; set; }
+        public string BrandGuid { get; set; }
 
         /// <summary>
         /// 官方价
@@ -77,6 +85,7 @@ namespace Visumall.Data.ERP
         /// 上架\下架
         /// 时间
         /// </summary>
+        [SugarColumn(IsNullable = true)]
         public DateTime? StatusTime { get; set; }
 
         /// <summary>
@@ -103,19 +112,29 @@ namespace Visumall.Data.ERP
         public DateTime LastUpdateTime { get; set; }
 
         /// <summary>
+        /// 品牌
+        /// </summary>
+        [SugarColumn(IsIgnore = true)]
+        public ProductBrand ProductBrand { get; set; }
+
+        /// <summary>
         /// 产品分类
         /// </summary>
+        [SugarColumn(IsIgnore = true)]
         public ProductType ProductType { get; set; }
 
         /// <summary>
-        /// 产品属性组别
+        /// 产品属性勾选集合
         /// </summary>
-        public ProductPropertyGroup PropertyGroup { get; set; }
+        [SugarColumn(IsIgnore = true)]
+        public List<ProductPropertyValueItem> PropertyValueItems{ get; set; }
 
         /// <summary>
         /// 产品文件集合
         /// </summary>
+        [SugarColumn(IsIgnore = true)]
         public List<ProductFile> ProductFileItems { get; set; }
+
 
     }
 }

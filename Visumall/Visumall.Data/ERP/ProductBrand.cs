@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,8 +10,9 @@ namespace Visumall.Data.ERP
 {
 
     /// <summary>
-    /// 商品品牌表
+    /// 品牌表
     /// </summary>
+    [SugarTable("ProductBrands")]
     public class ProductBrand
     {
 
@@ -25,12 +27,6 @@ namespace Visumall.Data.ERP
         /// </summary>
         [StringLength(100)]
         public string Guid { get; set; }
-
-        /// <summary>
-        /// 所属公司标识
-        /// </summary>
-        [StringLength(100)]
-        public string CompanyGuid { get; set; }
 
         /// <summary>
         /// 品牌名称
@@ -55,9 +51,10 @@ namespace Visumall.Data.ERP
         public DateTime CreateTime { get; set; }
 
         /// <summary>
-        /// 产品分类集合
+        /// 产品集合
         /// </summary>
-        public List<ProductType> ProductTypeItems { get; set; }
+        [SugarColumn(IsIgnore = true)]
+        public List<CompanyProduct> ProductItems { get; set; }
 
 
     }
