@@ -3,23 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.Data", "Visumall.Data\Visumall.Data.csproj", "{F57FE4AF-FF0A-4CB4-B4B0-EA7407067215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.Data", "Visumall.Data\Visumall.Data.csproj", "{F57FE4AF-FF0A-4CB4-B4B0-EA7407067215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.Logic", "Visumall.Logic\Visumall.Logic.csproj", "{38E2718F-5ED0-445D-9032-5ADECC90990D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.Logic", "Visumall.Logic\Visumall.Logic.csproj", "{38E2718F-5ED0-445D-9032-5ADECC90990D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.CommonBase", "Visumall.CommonBase\Visumall.CommonBase.csproj", "{AB715DBC-8F7F-4D24-B2CE-791399AA4B5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.CommonBase", "Visumall.CommonBase\Visumall.CommonBase.csproj", "{AB715DBC-8F7F-4D24-B2CE-791399AA4B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.Interface", "Visumall.Interface\Visumall.Interface.csproj", "{E66342DF-E668-40E1-B4FB-72FBF33FD674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.Interface", "Visumall.Interface\Visumall.Interface.csproj", "{E66342DF-E668-40E1-B4FB-72FBF33FD674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.DataMapper", "Visumall.DataMapper\Visumall.DataMapper.csproj", "{41404131-0C2F-43E0-998B-30059B99F263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.DataMapper", "Visumall.DataMapper\Visumall.DataMapper.csproj", "{41404131-0C2F-43E0-998B-30059B99F263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.WebApi.CRM", "Visumall.WebApi.CRM\Visumall.WebApi.CRM.csproj", "{439ED82B-E75F-4F4E-9FB9-CBA541B3BE31}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.WebApi.EHR", "Visumall.WebApi.EHR\Visumall.WebApi.EHR.csproj", "{9AEA7597-193C-44CB-9397-253A20D9DDDB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.WebApi.ERP", "Visumall.WebApi.ERP\Visumall.WebApi.ERP.csproj", "{8DAE94EB-4979-4A2C-BC74-726FD3D56868}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visumall.WebApi.HIS", "Visumall.WebApi.HIS\Visumall.WebApi.HIS.csproj", "{9D6BC954-934E-4520-B094-C0EED14CA6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visumall.WebApi.ERP", "Visumall.WebApi.ERP\Visumall.WebApi.ERP.csproj", "{E59F8CF8-6E3D-430A-A1DF-1F298F29E85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,22 +41,10 @@ Global
 		{41404131-0C2F-43E0-998B-30059B99F263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41404131-0C2F-43E0-998B-30059B99F263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41404131-0C2F-43E0-998B-30059B99F263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{439ED82B-E75F-4F4E-9FB9-CBA541B3BE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{439ED82B-E75F-4F4E-9FB9-CBA541B3BE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{439ED82B-E75F-4F4E-9FB9-CBA541B3BE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{439ED82B-E75F-4F4E-9FB9-CBA541B3BE31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AEA7597-193C-44CB-9397-253A20D9DDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AEA7597-193C-44CB-9397-253A20D9DDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AEA7597-193C-44CB-9397-253A20D9DDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AEA7597-193C-44CB-9397-253A20D9DDDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8DAE94EB-4979-4A2C-BC74-726FD3D56868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DAE94EB-4979-4A2C-BC74-726FD3D56868}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DAE94EB-4979-4A2C-BC74-726FD3D56868}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DAE94EB-4979-4A2C-BC74-726FD3D56868}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D6BC954-934E-4520-B094-C0EED14CA6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D6BC954-934E-4520-B094-C0EED14CA6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D6BC954-934E-4520-B094-C0EED14CA6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D6BC954-934E-4520-B094-C0EED14CA6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59F8CF8-6E3D-430A-A1DF-1F298F29E85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59F8CF8-6E3D-430A-A1DF-1F298F29E85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59F8CF8-6E3D-430A-A1DF-1F298F29E85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59F8CF8-6E3D-430A-A1DF-1F298F29E85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ERP\" />
+    <PackageReference Include="SqlSugarCore" Version="5.0.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Visumall.CommonBase\Visumall.CommonBase.csproj" />
   </ItemGroup>
 
 </Project>

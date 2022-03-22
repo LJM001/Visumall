@@ -9,3 +9,4 @@ C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.dll
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\ref\Visumall.DataMapper.dll
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.pdb
+C:\MyFile\MyDemo\Visumall\Visumall\Visumall.DataMapper\obj\Debug\net5.0\Visumall.DataMapper.csproj.AssemblyReference.cache

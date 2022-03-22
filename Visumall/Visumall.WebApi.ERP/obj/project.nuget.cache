@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "gF5ddHxpmlWM0BJ3FQV7ZQMq6LqoUhkqUzMTt67ggJlTKitsuauc00kG5PRGFBmt+XqBLGKJZnnMAbcJb2XitQ==",
+  "dgSpecHash": "HLpA34gHVlvaFaSwQ5Z75Y1OlO/wyUYBD+JGi/eVZ76Y0mkKqo1RNGrCcDlSa8OZEKbssW9RWJjtOo9izEH/vA==",
   "success": true,
   "projectFilePath": "C:\\MyFile\\MyDemo\\Visumall\\Visumall\\Visumall.WebApi.ERP\\Visumall.WebApi.ERP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\45935\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\45935\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\45935\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\45935\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\45935\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\45935\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

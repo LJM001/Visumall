@@ -2,7 +2,6 @@ C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\bin\Debug\net5.0\Visumall.Data.
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\bin\Debug\net5.0\Visumall.Data.dll
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\bin\Debug\net5.0\ref\Visumall.Data.dll
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\bin\Debug\net5.0\Visumall.Data.pdb
-C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\obj\Debug\net5.0\Visumall.Data.csproj.AssemblyReference.cache
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\obj\Debug\net5.0\Visumall.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\obj\Debug\net5.0\Visumall.Data.AssemblyInfoInputs.cache
 C:\MyFile\MyDemo\Visumall\Visumall\Visumall.Data\obj\Debug\net5.0\Visumall.Data.AssemblyInfo.cs
